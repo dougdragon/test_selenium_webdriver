@@ -18,6 +18,9 @@ class OpenGoogleSearch(unittest.TestCase):
         
         ff = webdriver.Firefox()
         ff.get(self.google_url)
-        ff.find_element_by_name(self.google_search_textbox).send_keys("android")
-        ff.find_element_by_name(self.google_search_textbox).send_keys("\n") # google instant
+        search_box = ff.find_element_by_name("q")
+        search_box.send_keys("android")
+        search_box.send_keys("\n") # google instant
+        
+        #TODO assert results
         ff.close()

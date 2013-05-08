@@ -14,7 +14,7 @@ class OpenGoogleSearch(unittest.TestCase):
 
     def test_open_google_do_search(self):
         """ Opens Google using Firefox and does a search 
-            for "Android". Then closes the browser """
+            for "butts and stuff". Then closes the browser """
         
         ff = webdriver.Firefox()
         ff.get(self.google_url)

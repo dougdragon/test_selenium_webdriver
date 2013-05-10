@@ -5,7 +5,11 @@ A simple test using selenium webdriver for Firefox. Opens a Firefox window and p
 
 Requirements
 -----------------------
-selenium, nose
+selenium, nose, unittest
+
+Installation
+-----------------------
+pip install -r requirements.txt
 
 Instructions
 -----------------------

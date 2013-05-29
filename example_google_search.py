@@ -20,7 +20,6 @@ class OpenGoogleSearch(unittest.TestCase):
 
         #  search_term = self.search_query(random.randint(1, len(self.search_query)))
         random_number = random.randint(1, len(self.search_query))
-        print random_number
         search_term = self.search_query[random_number]
 
         ff = webdriver.Firefox()
